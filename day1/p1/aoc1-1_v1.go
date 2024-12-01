@@ -15,7 +15,7 @@ func main() {
 	left := make([]int, 0)
 	right := make([]int, 0)
     dist := 0
-	file, err := os.Open("input_1.txt")
+	file, err := os.Open("../../input_1.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
